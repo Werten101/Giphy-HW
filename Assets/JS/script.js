@@ -25,7 +25,7 @@ $("#SearchButton").on("click", function() {
 
 $(document).on("click", ".buttons", function() {
     var butnClicked = $(this);
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + butnClicked.text() + "&api_key=dc6zaTOxFJmzC&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + butnClicked.text() + "&api_key=dc6zaTOxFJmzC&limit=10";
     butnClicked.text();
     console.log(butnClicked.text());
 
